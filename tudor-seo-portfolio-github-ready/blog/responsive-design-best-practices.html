@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Design Best Practices - Vladimir Tudor's Blog</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script defer src="../script.js"></script>
+</head>
+<body>
+  <button id="toggleTheme" style="margin: 1rem;">Toggle Dark Mode</button>
+
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <h1>Vladimir Tudor</h1>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/services.html">Services</a></li>
+        <li><a href="../pages/portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <article class="blog-post-detail">
+      <header>
+        <h2>Responsive Design Best Practices</h2>
+        <div class="post-meta">
+          <span class="date" aria-label="Published on March 10, 2025">March 10, 2025</span>
+          <span class="category" aria-label="Category: Design">Design</span>
+          <span class="reading-time" aria-label="Estimated reading time: 5 minutes">5 min read</span>
+        </div>
+      </header>
+
+      <div class="post-content">
+        <p class="post-intro">In today's multi-device world, responsive design is no longer optional—it's essential. This article covers the best practices for creating websites that work seamlessly across all devices and screen sizes.</p>
+
+        <figure class="post-image">
+          <img 
+            data-src="../images/responsive-devices.jpg" 
+            alt="Multiple devices showing the same website with responsive design" 
+            loading="lazy"
+            width="1200"
+            height="800"
+          />
+          <figcaption>Responsive design across different devices</figcaption>
+        </figure>
+
+        <section>
+          <h3>Mobile-First Approach</h3>
+          <p>Starting with mobile design ensures a solid foundation:</p>
+          <ul>
+            <li>Design for smallest screens first</li>
+            <li>Progressive enhancement for larger screens</li>
+            <li>Focus on core content and functionality</li>
+            <li>Optimize for touch interactions</li>
+            <li>Consider mobile performance constraints</li>
+          </ul>
+        </section>
+
+        <figure class="post-image">
+          <img 
+            data-src="../images/mobile-first.jpg.jpg" 
+            alt="Mobile-first design process showing progression from mobile to desktop" 
+            loading="lazy"
+            width="1200"
+            height="800"
+          />
+          <figcaption>Mobile-first design progression</figcaption>
+        </figure>
+
+        <section>
+          <h3>Flexible Grid Systems</h3>
+          <p>Implementing a flexible grid system is crucial:</p>
+          <ul>
+            <li>Use relative units (%, em, rem)</li>
+            <li>Implement CSS Grid and Flexbox</li>
+            <li>Create fluid layouts</li>
+            <li>Maintain consistent spacing</li>
+            <li>Consider content hierarchy</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Media Queries</h3>
+          <p>Effective use of media queries is key:</p>
+          <ul>
+            <li>Set appropriate breakpoints</li>
+            <li>Use min-width queries</li>
+            <li>Consider device capabilities</li>
+            <li>Test across multiple devices</li>
+            <li>Implement responsive typography</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Performance Optimization</h3>
+          <p>Performance is a critical aspect of responsive design:</p>
+          <ul>
+            <li>Optimize images for different devices</li>
+            <li>Implement lazy loading</li>
+            <li>Minimize HTTP requests</li>
+            <li>Use appropriate image formats</li>
+            <li>Consider bandwidth limitations</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Conclusion</h3>
+          <p>Responsive design is an ongoing process that requires attention to detail and regular testing. By following these best practices, you can create websites that provide an optimal experience across all devices.</p>
+        </section>
+      </div>
+
+      <footer class="post-footer">
+        <div class="author-info">
+          <img src="../images/author.jpg" alt="Vladimir Tudor" class="author-image" />
+          <div>
+            <h4>Vladimir Tudor</h4>
+            <p>Front-end Developer & Web Designer</p>
+          </div>
+        </div>
+        
+        <div class="post-tags">
+          <span>Tags:</span>
+          <a href="#" rel="tag">Design</a>
+          <a href="#" rel="tag">Responsive</a>
+          <a href="#" rel="tag">CSS</a>
+          <a href="#" rel="tag">Web Development</a>
+        </div>
+      </footer>
+    </article>
+
+    <nav class="post-navigation" aria-label="Blog post navigation">
+      <a href="future-of-web-development.html" class="prev-post" aria-label="Previous post: The Future of Web Development">← Previous Post</a>
+      <a href="index.html" class="back-to-blog" aria-label="Back to blog">Back to Blog</a>
+      <a href="javascript-performance-optimization.html" class="next-post" aria-label="Next post: JavaScript Performance Optimization">Next Post →</a>
+    </nav>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 Vladimir Tudor</p>
+  </footer>
+</body>
+</html> 

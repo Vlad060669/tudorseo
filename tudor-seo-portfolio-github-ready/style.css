@@ -1,0 +1,14 @@
+/*
+Theme Name: Tudor SEO Portfolio
+Theme URI: https://tudorseo.com
+Author: Vladimir Tudor
+Author URI: https://tudorseo.com
+Description: A custom portfolio and blog theme for Tudor SEO
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tudorseo
+*/
+
+/* Import your existing styles */
+@import url('styles.css'); 
